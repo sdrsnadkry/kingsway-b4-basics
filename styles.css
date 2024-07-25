@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.contact {
+    background-color: beige;
+    padding: 50px;
+}
+
+.contact-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.contact-input-group {
+    flex: 1;
+    margin-bottom: 20px;
+}
+
+.contact-input-group label {
+    font-size: 18px;
+    display: block;
+}
+
+.contact-input-group input {
+    font-size: 24px;
+    padding: 10px;
+    outline: 0;
+    border-color: grey;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.contact-form button {
+    padding: 20px 40px;
+    border-radius: 50px;
+    font-size: 18px;
+}
+
+.flex-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ml-40 {
+    margin-left: 40px;
+}
+
+.mr-40 {
+    margin-right: 40px;
+}
